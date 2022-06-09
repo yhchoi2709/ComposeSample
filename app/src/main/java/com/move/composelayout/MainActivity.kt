@@ -238,11 +238,3 @@ fun TextWithNormalPaddingPreview() {
         Text(text = "Hi there!", Modifier.padding(top = 32.dp))
     }
 }
-
-@Preview(showBackground = true)
-@Composable
-fun DefaultPreview() {
-    ComposeLayoutTheme {
-        MyApp()
-    }
-}
